@@ -1,0 +1,8 @@
+version: '2'
+services:
+  phpaiagent:
+    image: php:latest
+    ports:
+     - "5000:5000"
+
+# TODO finish at least a functional php box
